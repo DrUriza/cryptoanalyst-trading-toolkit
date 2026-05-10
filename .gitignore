@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+credentials/
+secrets/
+
+# Private data
+Data/
+data/
+logs/
+Trash/
+
+# Executables / builds
+*.exe
+*.dll
+*.pyd
+build/
+dist/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# OneDrive temporary files
+*.tmp
+~$*
+.browser_lock_*
+
+# Virtual environments anywhere in the project
+**/.venv/
+**/venv/
+**/env/
+**/*venv*/
+**/venvTA/
+
+# Python package folders inside virtual environments
+**/site-packages/
+
+# Jupyter generated folders inside virtual environments
+**/share/jupyter/
+**/etc/jupyter/
+
+# Python packaging artifacts
+*.egg-info/
+**/*.egg-info/
+
+# PyInstaller artifacts
+*.spec
+
+# Compressed files / generated packages
+*.zip
+*.rar
+*.7z
+
+# Temporary or scratch files
+Untitled-*.py

@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "EngineChatBot"
+version = "1.0.0"
+description = "ChatBot Context Builder & AI Prompt Engine"
+authors = [
+    { name = "Ottmar Uriza" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "numpy",
+    "pandas",
+    "python-dateutil",
+    "pytz",
+    "pyperclip",
+    "requests",
+    "scikit-learn",
+    "joblib",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pyinstaller]
+onefile = false
+console = true
+name = "EngineChatBot"
