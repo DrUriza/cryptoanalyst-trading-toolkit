@@ -24,12 +24,14 @@ The objective of this project is to demonstrate a custom-built trading analysis 
 
 The application is organized into four main modules:
 
+```text
 CryptoAnalyst/
 │
 ├── Chatbot
 ├── HMI
 ├── MLFramework
 └── TechAnalyze
+```
 
 Module	Purpose
 - Chatbot	Assistant and reporting layer designed to explain market context and summarize trade-relevant insights.
