@@ -30,12 +30,13 @@ CryptoAnalyst/
 ├── HMI
 ├── MLFramework
 └── TechAnalyze
-Module Summary
+
 Module	Purpose
-Chatbot	Assistant and reporting layer designed to explain market context and summarize trade-relevant insights.
-HMI	User interface layer for visualizing technical analysis, market structures, model outputs, and decision-support information.
-MLFramework	Machine-learning framework for processing market features and supporting signal classification.
-TechAnalyze	Technical analysis engine focused on price structures, trend behavior, support/resistance zones, order book data, patterns, and market context.
+- Chatbot	Assistant and reporting layer designed to explain market context and summarize trade-relevant insights.
+- HMI	User interface layer for visualizing technical analysis, market structures, model outputs, and decision-support information.
+- MLFramework	Machine-learning framework for processing market features and supporting signal classification.
+- TechAnalyze	Technical analysis engine focused on price structures, trend behavior, support/resistance zones, order book data, patterns, and market context.
+
 High-Level Architecture
 Market Data / Chart Image / Technical Inputs
                   ↓
@@ -49,8 +50,7 @@ Market Data / Chart Image / Technical Inputs
 
 The goal is to combine technical analysis, machine learning, visualization, and natural-language explanation into a single research-oriented trading toolkit.
 
-Screenshots
-Main HMI
+## Main HMI
 
 The main dashboard provides access to different analysis views, including technical resume, fast analysis, order book, report, and chatbot-related components.
 
@@ -60,17 +60,20 @@ Technical Resume
 The technical resume view summarizes multiple indicators across different timeframes, helping evaluate market context, trend behavior, momentum, volatility, and signal strength.
 
 <img src="docs/screenshots/HMI_Resume.png" width="900">
-Order Book View
+
+## Order Book View
 
 The order book view is designed to support market microstructure analysis and order-flow interpretation.
 
 <img src="docs/screenshots/HMI_Orderbook.png" width="900">
-ChatBot View
+
+## ChatBot View
 
 The chatbot layer is intended to support explanation, reporting, and interpretation of technical findings.
 
 <img src="docs/screenshots/HMI_ChatBot.png" width="900">
-Extra Plot Patterns
+
+## Extra Plot Patterns
 
 Additional plots help visualize indicator behavior, patterns, market structure, and technical conditions.
 
