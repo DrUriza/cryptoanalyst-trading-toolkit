@@ -1,7 +1,7 @@
-\# CryptoAnalyst
+CryptoAnalyst
 CryptoAnalyst is a prototype trading research application focused on technical market analysis, chart/image interpretation, ML-assisted signal processing, and trader decision support.
 
-\## Objective
+Objective
 
 This project demonstrates a custom-built trading analysis workflow designed to support:
 \- Market structure analysis
@@ -54,22 +54,17 @@ This is an active prototype. The current repository is prepared as a portfolio-s
 Disclaimer
 This project is for research and portfolio demonstration purposes only. It is not financial advice and does not guarantee trading performance.
 
-## Screenshots
-
-### Main HMI
-
+Screenshots
+Main HMI
 ![Main HMI](docs/screenshots/HMI_Main.png)
 
-### Technical Resume
-
+Technical Resume
 ![Technical Resume](docs/screenshots/HMI_Resume.png)
 
-### OrderBook View
-
+OrderBook View
 ![OrderBook View](docs/screenshots/HMI_Orderbook.png)
 
-### ChatBot View
-
+ChatBot View
 ![ChatBot View](docs/screenshots/HMI_ChatBot.png)
 
 ### Extra Plot Patterns
